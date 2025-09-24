@@ -65,6 +65,24 @@ function PhotoGallery() {
     }
   };
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!selectedImage) return;
+
+      if (e.key === "ArrowRight") {
+        handleNext(e);
+      } else if (e.key === "ArrowLeft") {
+        handlePrev(e);
+      } else if (e.key === "Escape") {
+        setSelectedImage(null);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [selectedImage, currentIndex, images]);
+
   return (
     <section id="galeria">
       <div className="grid grid-cols-12 w-full h-full absolute -z-10">

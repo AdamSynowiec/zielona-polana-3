@@ -51,9 +51,6 @@ const Contact = () => {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
-  useEffect(() => {
-    console.log('formData', formData)
-  }, [formData])
   const validate = () => {
     let newErrors = {};
     if (!formData.name) newErrors.name = "Imię i nazwisko jest wymagane.";
@@ -148,7 +145,7 @@ const Contact = () => {
                   checked={formData.privacyAccepted}
                   onChange={handleChange}
                 />
-                <label htmlFor="privacyAccepted" className="text-white pl-4">Wyrażam zgodę na przetwarzanie moich danych osobowych oraz potwierdzam, że zapoznałem się z treścią <Link to={"/polityka-prywatnosci"} className="underline hover:no-underline">Polityki prywatności</Link></label>
+                <label htmlFor="privacyAccepted" className="text-white pl-4">Wyrażam zgodę na przetwarzanie moich danych osobowych oraz potwierdzam, że zapoznałem się z treścią <Link to={"https://zielona-polana-3.pl/upload/zielona-polana-3.pdf"} target="_blank" className="underline hover:no-underline">Polityki prywatności</Link></label>
                 {errors.privacyAccepted && (
                   <p className="text-red-500 text-sm mt-1">{errors.privacyAccepted}</p>
                 )}

@@ -10,10 +10,10 @@ const Footer = () => {
             <span className='text-[#707070] font-poppins text-xs'>Copyright by zielonapolana.pl - 2025</span>
             <ul className='flex flex-row gap-4'>
               <li className='text-gray-500 text-sm'>
-                <Link to={"/"} className='underline hover:no-underline'>Historia cen</Link>
+                <Link to={"/historia-cen"} className='underline hover:no-underline'>Historia cen</Link>
               </li>
               <li className='text-gray-500 text-sm'>
-                <Link to={"/polityka-prywatnosci"} className='underline hover:no-underline'>Polityka prywatności</Link>
+                <Link to={"https://zielona-polana-3.pl/upload/zielona-polana-3.pdf"} target="_blank" className='underline hover:no-underline'>Polityka prywatności</Link>
               </li>
             </ul>
           </div>

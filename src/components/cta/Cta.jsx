@@ -33,7 +33,7 @@ const Cta = () => {
                             Inwestycja realizowana z wysokiej klasy materiałów — trwałość, precyzja wykonania i nowoczesne technologie.
                         </span>
                         <div>
-                            <Link to="http://zielona-polana-3.pl/upload/Prospekt%20inwestycyjny.pdf" target="_blank">
+                            <Link to="https://zielona-polana-3.pl/upload/Prospekt%20informacyjny%20TEC%20PYLNA.pdf" target="_blank">
                                 <button className="text-white uppercase font-poppins py-4 px-6 border hover:bg-white hover:text-[#C2A992] transition-all w-full md:w-auto">
                                     Dowiedz się więcej
                                 </button>

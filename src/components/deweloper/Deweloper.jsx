@@ -17,7 +17,7 @@ const Deweloper = () => {
                 O deweloperze
               </h2>
               <p className='font-poppins text-white font-extralight max-w-[715px] text-lg md:text-xl'>
-                TEC PYLNA Sp. z o. o.. stanowi część Krakowskiej Grupy Deweloperskiej (KGD) - wiodącego konsorcjum specjalizującego się w realizacji inwestycji premium
+                TEC PYLNA Sp. z o. o. stanowi część Krakowskiej Grupy Deweloperskiej (KGD) to wiodący deweloper specjalizujący się w realizacji inwestycji premium
                 w najbardziej prestiżowych lokalizacjach Krakowa, ze szczególnym uwzględnieniem Woli Justowskiej.
                 <br />
                 <br />
